@@ -17,7 +17,7 @@ ApiConnector.current(response => {
   }
 });
 
-// Carrency rate getting
+// Currency rate getting
 const ratesBoard = new RatesBoard();
 function currenyRateRequest() {
   ApiConnector.getStocks(response => {
